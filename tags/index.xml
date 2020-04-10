@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on yangbin&#39;s blog</title>
+    <title>Tags on amesy</title>
     <link>https://amesy.me/tags/</link>
-    <description>Recent content in Tags on yangbin&#39;s blog</description>
+    <description>Recent content in Tags on amesy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <lastBuildDate>Thu, 11 Apr 2019 14:26:00 +0800</lastBuildDate>
     
 	<atom:link href="https://amesy.me/tags/index.xml" rel="self" type="application/rss+xml" />
