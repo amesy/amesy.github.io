@@ -138,7 +138,7 @@ This tutorial will show you how to create a simple theme in Hugo. I assume that 
 
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
-  <div class="post-toc-content always-active">
+  <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction</a></li>
@@ -1940,6 +1940,21 @@ $ vi themes/zafta/layouts/_default/single.html
         
 
   
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'GzeiAPGlGfBafBMMy6BQeyHy-gzGzoHsz',
+        appKey: 'A6B8x8Nu61tXtRuDIaEIImQb',
+        notify:  false ,
+        verify:  false ,
+        avatar:'mm',
+        placeholder: '说点什么吧...',
+        visitor:  false 
+    });
+  </script>
 
   
 
