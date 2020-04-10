@@ -6,10 +6,19 @@
     <description>Recent content on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2020 15:36:07 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 18:13:35 +0800</lastBuildDate>
     
 	<atom:link href="https://amesy.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://amesy.me/about/</link>
+      <pubDate>Fri, 10 Apr 2020 18:13:35 +0800</pubDate>
+      
+      <guid>https://amesy.me/about/</guid>
+      <description>信息 微信：319485318</description>
+    </item>
     
     <item>
       <title>First Node</title>
