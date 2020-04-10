@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://amesy.me/sitemap.xml
+Sitemap: http://localhost:65526/sitemap.xml
