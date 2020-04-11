@@ -1,33 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on amesy</title>
+    <title>Tags on Amesy</title>
     <link>https://amesy.me/tags/</link>
-    <description>Recent content in Tags on amesy</description>
+    <description>Recent content in Tags on Amesy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Apr 2019 14:26:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 10 Apr 2019 14:26:00 +0800</lastBuildDate>
     
 	<atom:link href="https://amesy.me/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>中文</title>
-      <link>https://amesy.me/tags/%E4%B8%AD%E6%96%87/</link>
-      <pubDate>Thu, 11 Apr 2019 14:26:00 +0800</pubDate>
-      
-      <guid>https://amesy.me/tags/%E4%B8%AD%E6%96%87/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>真言</title>
-      <link>https://amesy.me/tags/%E7%9C%9F%E8%A8%80/</link>
-      <pubDate>Thu, 11 Apr 2019 14:26:00 +0800</pubDate>
-      
-      <guid>https://amesy.me/tags/%E7%9C%9F%E8%A8%80/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>体系</title>

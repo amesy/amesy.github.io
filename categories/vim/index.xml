@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VIM on Amesy</title>
+    <link>https://amesy.me/categories/vim/</link>
+    <description>Recent content in VIM on Amesy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Apr 2020 15:36:07 +0800</lastBuildDate>
+    
+	<atom:link href="https://amesy.me/categories/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Node</title>
+      <link>https://amesy.me/post/first-node/</link>
+      <pubDate>Fri, 10 Apr 2020 15:36:07 +0800</pubDate>
+      
+      <guid>https://amesy.me/post/first-node/</guid>
+      <description>1 2 3 4 5 6 7 8 9 fn test(ok: bool) { let x: i32; // 声明 x, 不需要使用 mut 修饰。 if ok { x = 100; // 初始化 x, 不需要 x 是 mut 的, 因为这是初始化，不是修改。 println!(&amp;#34;{}&amp;#34;, x); } // 如果条件不</description>
+    </item>
+    
+  </channel>
+</rss>

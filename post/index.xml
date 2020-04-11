@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on amesy</title>
+    <title>Posts on Amesy</title>
     <link>https://amesy.me/post/</link>
-    <description>Recent content in Posts on amesy</description>
+    <description>Recent content in Posts on Amesy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 10 Apr 2020 15:36:07 +0800</lastBuildDate>
@@ -17,40 +17,7 @@
       <pubDate>Fri, 10 Apr 2020 15:36:07 +0800</pubDate>
       
       <guid>https://amesy.me/post/first-node/</guid>
-      <description>sdfsf
-sdfsdf sdfs</description>
-    </item>
-    
-    <item>
-      <title>药师灌顶真言</title>
-      <link>https://amesy.me/post/chinese-preview/</link>
-      <pubDate>Thu, 11 Apr 2019 14:26:00 +0800</pubDate>
-      
-      <guid>https://amesy.me/post/chinese-preview/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;修学药师灌顶真言是药师法门的一部分，读诵修持有着极大的功德利益&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;内容&#34;&gt;内容&lt;/h1&gt;
-&lt;p&gt;南无薄伽伐帝鞞杀社&lt;/p&gt;
-&lt;p&gt;窭噜薜琉璃&lt;/p&gt;
-&lt;p&gt;跋喇婆&lt;/p&gt;
-&lt;p&gt;喝啰阇也&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>药师灌顶真言</title>
-      <link>https://amesy.me/post/chinese-preview/</link>
-      <pubDate>Thu, 11 Apr 2019 14:26:00 +0800</pubDate>
-      
-      <guid>https://amesy.me/post/chinese-preview/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;修学药师灌顶真言是药师法门的一部分，读诵修持有着极大的功德利益&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;内容&#34;&gt;内容&lt;/h1&gt;
-&lt;p&gt;南无薄伽伐帝鞞杀社&lt;/p&gt;
-&lt;p&gt;窭噜薜琉璃&lt;/p&gt;
-&lt;p&gt;跋喇婆&lt;/p&gt;
-&lt;p&gt;喝啰阇也&lt;/p&gt;</description>
+      <description>1 2 3 4 5 6 7 8 9 fn test(ok: bool) { let x: i32; // 声明 x, 不需要使用 mut 修饰。 if ok { x = 100; // 初始化 x, 不需要 x 是 mut 的, 因为这是初始化，不是修改。 println!(&amp;#34;{}&amp;#34;, x); } // 如果条件不</description>
     </item>
     
     <item>
@@ -62,7 +29,9 @@ sdfsdf sdfs</description>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;h1 id=&#34;尊敬語&#34;&gt;尊敬語&lt;/h1&gt;
+
 &lt;p&gt;尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。&lt;/p&gt;</description>
     </item>
     
@@ -75,7 +44,9 @@ sdfsdf sdfs</description>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;h1 id=&#34;尊敬語&#34;&gt;尊敬語&lt;/h1&gt;
+
 &lt;p&gt;尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。&lt;/p&gt;</description>
     </item>
     
@@ -88,7 +59,9 @@ sdfsdf sdfs</description>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;h1 id=&#34;尊敬語&#34;&gt;尊敬語&lt;/h1&gt;
+
 &lt;p&gt;尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。&lt;/p&gt;</description>
     </item>
     
@@ -101,7 +74,9 @@ sdfsdf sdfs</description>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;h1 id=&#34;尊敬語&#34;&gt;尊敬語&lt;/h1&gt;
+
 &lt;p&gt;尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。&lt;/p&gt;</description>
     </item>
     
@@ -114,7 +89,9 @@ sdfsdf sdfs</description>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;h1 id=&#34;尊敬語&#34;&gt;尊敬語&lt;/h1&gt;
+
 &lt;p&gt;尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。&lt;/p&gt;</description>
     </item>
     
@@ -127,7 +104,9 @@ sdfsdf sdfs</description>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;h1 id=&#34;尊敬語&#34;&gt;尊敬語&lt;/h1&gt;
+
 &lt;p&gt;尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。&lt;/p&gt;</description>
     </item>
     
@@ -140,7 +119,9 @@ sdfsdf sdfs</description>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;h1 id=&#34;尊敬語&#34;&gt;尊敬語&lt;/h1&gt;
+
 &lt;p&gt;尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。&lt;/p&gt;</description>
     </item>
     
@@ -153,7 +134,9 @@ sdfsdf sdfs</description>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;h1 id=&#34;尊敬語&#34;&gt;尊敬語&lt;/h1&gt;
+
 &lt;p&gt;尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。&lt;/p&gt;</description>
     </item>
     
@@ -166,7 +149,9 @@ sdfsdf sdfs</description>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;h1 id=&#34;尊敬語&#34;&gt;尊敬語&lt;/h1&gt;
+
 &lt;p&gt;尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。&lt;/p&gt;</description>
     </item>
     
@@ -179,7 +164,9 @@ sdfsdf sdfs</description>
       <description>&lt;blockquote&gt;
 &lt;p&gt;日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。&lt;/p&gt;
 &lt;/blockquote&gt;
+
 &lt;h1 id=&#34;尊敬語&#34;&gt;尊敬語&lt;/h1&gt;
+
 &lt;p&gt;尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。&lt;/p&gt;</description>
     </item>
     
@@ -190,6 +177,7 @@ sdfsdf sdfs</description>
       
       <guid>https://amesy.me/post/english-preview/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+
 &lt;p&gt;This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.&lt;/p&gt;</description>
     </item>
     
@@ -202,7 +190,7 @@ sdfsdf sdfs</description>
       <description>&lt;h1 id=&#34;headings&#34;&gt;Headings&lt;/h1&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
@@ -215,8 +203,7 @@ sdfsdf sdfs</description>
 &lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;### H3
 &lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;#### H4
 &lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;##### H5
-&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;###### H6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;&lt;/span&gt;###### H6&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description>
     </item>
@@ -227,26 +214,8 @@ sdfsdf sdfs</description>
       <pubDate>Sun, 31 Mar 2019 17:49:40 +0800</pubDate>
       
       <guid>https://amesy.me/post/theme-preview/</guid>
-      <description>&lt;h1 id=&#34;headings&#34;&gt;Headings&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# H1
-&lt;/span&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;## H2
-&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;### H3
-&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;#### H4
-&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;##### H5
-&lt;/span&gt;&lt;span class=&#34;gu&#34;&gt;###### H6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
+      <description>   Colors Fruits Vegetable     Red Apple Pepper   Orange Oranges Carrot   Green Pears Spinach    ```
+   Colors Fruits Vegetable     Red Apple Pepper   Orange Oranges Carrot   Green Pears Spinach    </description>
     </item>
     
   </channel>
