@@ -35,7 +35,7 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
-
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 <link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
@@ -45,7 +45,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://amesy.me/" />
 
-<meta property="og:updated_time" content="2020-04-10T18:13:35&#43;08:00"/>
+<meta property="og:updated_time" content="2020-04-11T13:49:40&#43;08:00"/>
 
 <meta itemprop="name" content="Amesy">
 <meta itemprop="description" content="yangbin&#39;s site.">
@@ -83,6 +83,8 @@
         <li class="mobile-menu-item">Archives</li>
       </a><a href="/tags/">
         <li class="mobile-menu-item">Tags</li>
+      </a><a href="/note/">
+        <li class="mobile-menu-item">Note</li>
       </a><a href="/about/">
         <li class="mobile-menu-item">About</li>
       </a>
@@ -103,6 +105,8 @@
       </li><li class="menu-item">
         <a class="menu-item-link" href="/tags/">Tags</a>
       </li><li class="menu-item">
+        <a class="menu-item-link" href="/note/">Note</a>
+      </li><li class="menu-item">
         <a class="menu-item-link" href="/about/">About</a>
       </li>
   </ul>
@@ -115,148 +119,47 @@
           <section id="posts" class="posts">
     <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/first-node/">First Node</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/set-up-the-blog/">Hugo博客搭建注意事项</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2020-04-10 </span>
-      <div class="post-category">
-          <a href="/categories/development/"> Development </a>
-          <a href="/categories/vim/"> VIM </a>
-          <a href="/categories/fenlei/"> fenlei </a>
-          </div>
+      <span class="post-time"> 2020-04-11 </span>
+      
+        <span class="more-meta"> 704 words </span>
+        <span class="more-meta"> 2 mins read </span>
     </div>
   </header>
   
   <div class="post-content">
     <div class="post-summary">
-      1 2 3 4 5 6 7 8 9 fn test(ok: bool) { let x: i32; // 声明 x, 不需要使用 mut 修饰。 if ok { x = 100; // 初始化 x, 不需要 x 是 mut 的, 因为这是初始化，不是修改。 println!(&#34;{}&#34;, x); } // 如果条件不
+      <p>好久没折腾博客了。最早开始用的是 WordPress，购买云主机和域名，一步步搭建，乐此不疲。后来更新博客频率不高，慢慢的就搁置了。再后来迷上了静态博客框架，如 Hexo、Jekyll 等，借助 Github Page 搭建简单且免费。</p>
+
+<p>了解到 Hugo 是因为接触 Golang 的缘故。Hugo 号称是“世界上最快的网站构建框架”，且由 go 开发，最近接触下来，确实好用。</p>
+
+<p>搭建过程中，踩到不少坑，这里总结记录一下，以防再犯。</p>
     </div>
     <div class="read-more">
-      <a href="/post/first-node/" class="read-more-link">Read more...</a>
+      <a href="/post/set-up-the-blog/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>
 
     <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/japanese-preview/">日本語敬語体系</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/theme-preview/">Theme Preview</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2019-04-10 </span>
+      <span class="post-time"> 2019-03-31 </span>
       
+        <span class="more-meta"> 25 words </span>
+        <span class="more-meta"> 1 min read </span>
     </div>
   </header>
   
   <div class="post-content">
     <div class="post-summary">
-      <blockquote>
-<p>日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。</p>
-</blockquote>
-
-<h1 id="尊敬語">尊敬語</h1>
-
-<p>尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。</p>
+         Colors Fruits Vegetable     Red Apple Pepper   Orange Oranges Carrot   Green Pears Spinach    ```
+   Colors Fruits Vegetable     Red Apple Pepper   Orange Oranges Carrot   Green Pears Spinach    
     </div>
     <div class="read-more">
-      <a href="/post/japanese-preview/" class="read-more-link">Read more...</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/japanese-preview/">日本語敬語体系</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2019-04-10 </span>
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <blockquote>
-<p>日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。</p>
-</blockquote>
-
-<h1 id="尊敬語">尊敬語</h1>
-
-<p>尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/japanese-preview/" class="read-more-link">Read more...</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/japanese-preview/">日本語敬語体系</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2019-04-10 </span>
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <blockquote>
-<p>日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。</p>
-</blockquote>
-
-<h1 id="尊敬語">尊敬語</h1>
-
-<p>尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/japanese-preview/" class="read-more-link">Read more...</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/japanese-preview/">日本語敬語体系</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2019-04-10 </span>
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <blockquote>
-<p>日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。</p>
-</blockquote>
-
-<h1 id="尊敬語">尊敬語</h1>
-
-<p>尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/japanese-preview/" class="read-more-link">Read more...</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/japanese-preview/">日本語敬語体系</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2019-04-10 </span>
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <blockquote>
-<p>日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに丁重語および美化語を含めた5分類を示している。</p>
-</blockquote>
-
-<h1 id="尊敬語">尊敬語</h1>
-
-<p>尊敬語は、動作の主体を高めることで、主体への敬意を表す言い方である。動詞に「お（ご）～になる」を付けた形、また、助動詞「（ら）れる」を付けた形などが用いられる。たとえば、動詞「取る」の尊敬形として、「（先生が）お取りになる」「（先生が）取られる」などが用いられる。</p>
-    </div>
-    <div class="read-more">
-      <a href="/post/japanese-preview/" class="read-more-link">Read more...</a>
+      <a href="/post/theme-preview/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>
@@ -265,10 +168,7 @@
   
   <nav class="pagination">
     
-    <a class="next" href="/page/2/">
-        <span class="next-text">Next</span>
-        <i class="iconfont icon-right"></i>
-      </a>
+    
   </nav>
         </div>
         
@@ -296,7 +196,11 @@
     <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
   </span>
 
-  
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> site pv: <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> site uv: <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+  </div>
 
   <span class="copyright-year">
     &copy; 
@@ -305,7 +209,7 @@
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
-    <span class="author">amesy</span>
+    <span class="author">是的范德萨的发生的</span>
   </span>
 </div>
     </footer>
@@ -314,7 +218,7 @@
       <i class="iconfont icon-up"></i>
     </div>
   </div>
-  <script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+  
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>

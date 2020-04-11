@@ -6,37 +6,10 @@
     <description>Recent content in Categories on Amesy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2020 15:36:07 +0800</lastBuildDate>
+    <copyright>是的范德萨的发生的</copyright>
     
 	<atom:link href="https://amesy.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Development</title>
-      <link>https://amesy.me/categories/development/</link>
-      <pubDate>Fri, 10 Apr 2020 15:36:07 +0800</pubDate>
-      
-      <guid>https://amesy.me/categories/development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VIM</title>
-      <link>https://amesy.me/categories/vim/</link>
-      <pubDate>Fri, 10 Apr 2020 15:36:07 +0800</pubDate>
-      
-      <guid>https://amesy.me/categories/vim/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>fenlei</title>
-      <link>https://amesy.me/categories/fenlei/</link>
-      <pubDate>Fri, 10 Apr 2020 15:36:07 +0800</pubDate>
-      
-      <guid>https://amesy.me/categories/fenlei/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

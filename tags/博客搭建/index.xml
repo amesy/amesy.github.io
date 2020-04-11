@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Amesy</title>
-    <link>https://amesy.me/post/</link>
-    <description>Recent content in Posts on Amesy</description>
+    <title>博客搭建 on Amesy</title>
+    <link>https://amesy.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+    <description>Recent content in 博客搭建 on Amesy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>是的范德萨的发生的</copyright>
     <lastBuildDate>Sat, 11 Apr 2020 13:49:40 +0800</lastBuildDate>
     
-	<atom:link href="https://amesy.me/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://amesy.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,16 +23,6 @@
 &lt;p&gt;了解到 Hugo 是因为接触 Golang 的缘故。Hugo 号称是“世界上最快的网站构建框架”，且由 go 开发，最近接触下来，确实好用。&lt;/p&gt;
 
 &lt;p&gt;搭建过程中，踩到不少坑，这里总结记录一下，以防再犯。&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Theme Preview</title>
-      <link>https://amesy.me/post/theme-preview/</link>
-      <pubDate>Sun, 31 Mar 2019 17:49:40 +0800</pubDate>
-      
-      <guid>https://amesy.me/post/theme-preview/</guid>
-      <description>   Colors Fruits Vegetable     Red Apple Pepper   Orange Oranges Carrot   Green Pears Spinach    ```
-   Colors Fruits Vegetable     Red Apple Pepper   Orange Oranges Carrot   Green Pears Spinach    </description>
     </item>
     
   </channel>
