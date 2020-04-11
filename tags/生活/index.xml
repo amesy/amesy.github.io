@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生活 on Amesy</title>
+    <link>http://localhost:1313/tags/%E7%94%9F%E6%B4%BB/</link>
+    <description>Recent content in 生活 on Amesy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Amesy original</copyright>
+    <lastBuildDate>Wed, 02 Jul 2014 21:49:40 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/post/hello-world/</link>
+      <pubDate>Wed, 02 Jul 2014 21:49:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/hello-world/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

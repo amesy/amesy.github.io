@@ -22,11 +22,38 @@
     </item>
     
     <item>
-      <title>theme</title>
-      <link>https://amesy.me/tags/theme/</link>
-      <pubDate>Sun, 31 Mar 2019 17:49:40 +0800</pubDate>
+      <title>Diary</title>
+      <link>https://amesy.me/tags/diary/</link>
+      <pubDate>Mon, 07 Jan 2019 22:51:40 +0800</pubDate>
       
-      <guid>https://amesy.me/tags/theme/</guid>
+      <guid>https://amesy.me/tags/diary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>feeling</title>
+      <link>https://amesy.me/tags/feeling/</link>
+      <pubDate>Mon, 07 Jan 2019 22:51:40 +0800</pubDate>
+      
+      <guid>https://amesy.me/tags/feeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://amesy.me/tags/docker/</link>
+      <pubDate>Sat, 14 Jul 2018 18:31:40 +0800</pubDate>
+      
+      <guid>https://amesy.me/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harbor</title>
+      <link>https://amesy.me/tags/harbor/</link>
+      <pubDate>Sat, 14 Jul 2018 18:31:40 +0800</pubDate>
+      
+      <guid>https://amesy.me/tags/harbor/</guid>
       <description></description>
     </item>
     
@@ -36,6 +63,15 @@
       <pubDate>Fri, 10 Oct 2014 18:13:35 +0800</pubDate>
       
       <guid>https://amesy.me/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>life</title>
+      <link>https://amesy.me/tags/life/</link>
+      <pubDate>Wed, 02 Jul 2014 21:49:40 +0800</pubDate>
+      
+      <guid>https://amesy.me/tags/life/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diary on Amesy</title>
+    <link>https://amesy.me/tags/diary/</link>
+    <description>Recent content in Diary on Amesy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Amesy original</copyright>
+    <lastBuildDate>Mon, 07 Jan 2019 22:51:40 +0800</lastBuildDate>
+    
+	<atom:link href="https://amesy.me/tags/diary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>最近有感</title>
+      <link>https://amesy.me/post/feeling-20190107/</link>
+      <pubDate>Mon, 07 Jan 2019 22:51:40 +0800</pubDate>
+      
+      <guid>https://amesy.me/post/feeling-20190107/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on Amesy</title>
+    <link>https://amesy.me/tags/docker/</link>
+    <description>Recent content in Docker on Amesy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Amesy original</copyright>
+    <lastBuildDate>Sat, 14 Jul 2018 18:31:40 +0800</lastBuildDate>
+    
+	<atom:link href="https://amesy.me/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker镜像仓库Harbor搭建及配置</title>
+      <link>https://amesy.me/post/set-up-the-harbor/</link>
+      <pubDate>Sat, 14 Jul 2018 18:31:40 +0800</pubDate>
+      
+      <guid>https://amesy.me/post/set-up-the-harbor/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
