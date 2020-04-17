@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>《C程序设计语言》学习笔记-第一章 - Amesy</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="amesy" /><meta name="description" content="" /><meta name="keywords" content="Hugo, theme, amesy, yangbin" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.55.0 with theme even" />
+
+
+<link rel="canonical" href="https://amesy.me/post/c-programming-language-first/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="《C程序设计语言》学习笔记-第一章" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://amesy.me/post/c-programming-language-first/" />
+<meta property="article:published_time" content="2014-09-04T09:42:40&#43;08:00"/>
+<meta property="article:modified_time" content="2014-09-04T09:42:40&#43;08:00"/>
+
+<meta itemprop="name" content="《C程序设计语言》学习笔记-第一章">
+<meta itemprop="description" content="">
+
+
+<meta itemprop="datePublished" content="2014-09-04T09:42:40&#43;08:00" />
+<meta itemprop="dateModified" content="2014-09-04T09:42:40&#43;08:00" />
+<meta itemprop="wordCount" content="1467">
+
+
+
+<meta itemprop="keywords" content="C Programming," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="《C程序设计语言》学习笔记-第一章"/>
+<meta name="twitter:description" content=""/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Amesy</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">About</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Amesy</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">About</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">《C程序设计语言》学习笔记-第一章</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2014-09-04 </span>
+        <div class="post-category">
+            <a href="/categories/c%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80/"> C程序设计语言 </a>
+            </div>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#第一章-导言">第一章 导言</a>
+<ul>
+<li><a href="#一-入门">一、入门</a></li>
+<li><a href="#二-算术运算符">二、算术运算符</a>
+<ul>
+<li><a href="#练习">练习</a></li>
+<li><a href="#格式说明">格式说明</a></li>
+<li><a href="#练习-1">练习</a></li>
+</ul></li>
+<li><a href="#三-for语句">三、for语句</a>
+<ul>
+<li><a href="#练习-2">练习</a></li>
+</ul></li>
+<li><a href="#四-符号常量">四、符号常量</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h1 id="第一章-导言">第一章 导言</h1>
+
+<h2 id="一-入门">一、入门</h2>
+
+<p>在 UNIX 操作系统中，打印 <code>Hello, World</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;				// 包含标准库的信息</span><span class="cp">
+</span><span class="cp"></span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>					<span class="c1">// 定义名为main的函数，它不接收参数值
+</span><span class="c1"></span>    <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Hello World</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>	<span class="c1">// main函数调用库函数printf以显示字符序列，\n代表换行符
+</span><span class="c1"></span>	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>编译程序：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="n">cc</span> <span class="n">hello</span><span class="p">.</span><span class="n">c</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>编译完会生成一个可执行文件 a.out。运行 a.out 即可打印出相应的信息。</p>
+
+<h2 id="二-算术运算符">二、算术运算符</h2>
+
+<h3 id="练习">练习</h3>
+
+<p>题目：使用公式 ℃ = (5 / 9) (℉ - 32)打印下列华氏温度与摄氏温度对照表</p>
+
+<table>
+<thead>
+<tr>
+<th>℉</th>
+<th>℃</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>-17</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td>-6</td>
+</tr>
+
+<tr>
+<td>40</td>
+<td>4</td>
+</tr>
+
+<tr>
+<td>60</td>
+<td>15</td>
+</tr>
+
+<tr>
+<td>80</td>
+<td>26</td>
+</tr>
+
+<tr>
+<td>100</td>
+<td>37</td>
+</tr>
+
+<tr>
+<td>120</td>
+<td>48</td>
+</tr>
+
+<tr>
+<td>140</td>
+<td>60</td>
+</tr>
+
+<tr>
+<td>160</td>
+<td>71</td>
+</tr>
+
+<tr>
+<td>180</td>
+<td>82</td>
+</tr>
+
+<tr>
+<td>200</td>
+<td>93</td>
+</tr>
+
+<tr>
+<td>220</td>
+<td>104</td>
+</tr>
+
+<tr>
+<td>240</td>
+<td>115</td>
+</tr>
+
+<tr>
+<td>260</td>
+<td>126</td>
+</tr>
+
+<tr>
+<td>280</td>
+<td>137</td>
+</tr>
+
+<tr>
+<td>300</td>
+<td>148</td>
+</tr>
+</tbody>
+</table>
+
+<p>代码实现：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">celsius</span><span class="p">,</span> <span class="n">fahr</span><span class="p">;</span>          <span class="cm">/* celsius: 摄氏度, fahr: 华氏度 */</span>
+    <span class="kt">int</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">,</span> <span class="n">step</span><span class="p">;</span>
+
+    <span class="n">lower</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>      <span class="cm">/* 摄氏度下限 */</span>
+    <span class="n">upper</span> <span class="o">=</span> <span class="mi">300</span><span class="p">;</span>    <span class="cm">/* 摄氏度上限 */</span>
+    <span class="n">step</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>      <span class="cm">/* 步长      */</span>
+
+    <span class="n">fahr</span> <span class="o">=</span> <span class="n">lower</span><span class="p">;</span>
+    <span class="k">while</span> <span class="p">(</span><span class="n">fahr</span> <span class="o">&lt;=</span> <span class="n">upper</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">celsius</span> <span class="o">=</span> <span class="mi">5</span> <span class="o">*</span> <span class="p">(</span><span class="n">fahr</span> <span class="o">-</span> <span class="mi">32</span><span class="p">)</span> <span class="o">/</span> <span class="mi">9</span><span class="p">;</span>
+        <span class="c1">// printf(&#34;%3d %6d\n&#34;, fahr, celsius);  /* 数值右对齐，分别占3个数字宽和6个数字宽*/
+</span><span class="c1"></span>        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%d</span><span class="se">\t</span><span class="s">%d</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">);</span>
+        <span class="n">fahr</span> <span class="o">+=</span> <span class="n">step</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="格式说明">格式说明</h3>
+
+<p>格式说明可以省略精度和宽度，例如 %6f 表示待打印的浮点数至少有6个字符宽；%.2f 指定待打印的浮点数的小数点后有两位小数，但宽度没有限制；%f则仅要求按照浮点数打印该数。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">%d		按照十进制整型数打印
+%6d		按照十进制整型数打印，至少6个字符宽
+%f		按照浮点数打印
+%6f		按照浮点数打印，至少6个字符宽
+%.2f	按照浮点数打印，小数点后有2位
+%6.2f	按照浮点数打印，至少6个字符宽，小数点后有2位</code></pre></td></tr></table>
+</div>
+</div>
+<p>此外，printf 函数支持下列格式说明：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-markdown" data-lang="markdown">%o		八进制数
+%x		十六进制数
+%c		字符
+%s		字符串
+%%		百分号(%)本身</code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="练习-1">练习</h3>
+
+<p>题目：编写一个程序打印摄氏温度转换为相应的华氏温度的转换表，转换公式：℉ =  (9.0 * ℃) / 5.0 + 32.0</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kt">float</span> <span class="n">celsius</span><span class="p">,</span> <span class="n">fahr</span><span class="p">;</span>          <span class="cm">/* celsius: 摄氏度, fahr: 华氏度 */</span>
+    <span class="kt">int</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">,</span> <span class="n">step</span><span class="p">;</span>
+
+    <span class="n">lower</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>      <span class="cm">/* 摄氏度下限 */</span>
+    <span class="n">upper</span> <span class="o">=</span> <span class="mi">300</span><span class="p">;</span>    <span class="cm">/* 摄氏度上限 */</span>
+    <span class="n">step</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>      <span class="cm">/* 步长      */</span>
+
+    <span class="n">celsius</span> <span class="o">=</span> <span class="n">lower</span><span class="p">;</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">&#34;fahr  celsius</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>
+
+    <span class="k">while</span> <span class="p">(</span><span class="n">celsius</span> <span class="o">&lt;=</span> <span class="n">upper</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">fahr</span> <span class="o">=</span> <span class="p">(</span><span class="mf">9.0</span> <span class="o">*</span> <span class="n">celsius</span><span class="p">)</span> <span class="o">/</span> <span class="mf">5.0</span> <span class="o">+</span> <span class="mf">32.0</span><span class="p">;</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%3.0f%6.0f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">);</span>
+        <span class="n">celsius</span> <span class="o">+=</span> <span class="n">step</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="三-for语句">三、for语句</h2>
+
+<p>使用 for 语句实现打印华氏温度 - 摄氏温度对照表：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="cm">/* ℃ = (5 / 9) (℉ - 32) */</span>
+
+    <span class="kt">int</span> <span class="n">fahr</span><span class="p">;</span>
+
+    <span class="k">for</span> <span class="p">(</span> <span class="n">fahr</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">fahr</span> <span class="o">&lt;=</span> <span class="mi">300</span><span class="p">;</span> <span class="n">fahr</span> <span class="o">+=</span> <span class="mi">20</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%3d\%7.1f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,</span> <span class="mf">5.0</span> <span class="o">*</span> <span class="p">(</span><span class="n">fahr</span> <span class="o">-</span> <span class="mi">32</span><span class="p">)</span> <span class="o">/</span> <span class="mf">9.0</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>同样的功能，对比 for 循环语句和 while 循环语句，可以发现 for 语句适合初始化和增加步长都是单条语句并且逻辑相关的情形，因为它将循环控制语句集中在一起，且比while语句更紧凑。</p>
+
+<h3 id="练习-2">练习</h3>
+
+<p>题目：修改温度转换程序，要求以逆序（即按照300度到0度的顺序）打印温度转换表</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="cm">/* ℃ = (5 / 9) (℉ - 32) */</span>
+
+    <span class="kt">int</span> <span class="n">fahr</span><span class="p">;</span>
+
+    <span class="k">for</span> <span class="p">(</span> <span class="n">fahr</span> <span class="o">=</span> <span class="mi">300</span><span class="p">;</span> <span class="n">fahr</span> <span class="o">&gt;=</span><span class="mi">0</span><span class="p">;</span> <span class="n">fahr</span> <span class="o">-=</span> <span class="mi">20</span><span class="p">)</span> <span class="p">{</span>  <span class="cm">/* 唯一的修改之处 */</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%3d\%7.1f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,</span> <span class="mf">5.0</span> <span class="o">*</span> <span class="p">(</span><span class="n">fahr</span> <span class="o">-</span> <span class="mi">32</span><span class="p">)</span> <span class="o">/</span> <span class="mf">9.0</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<h2 id="四-符号常量">四、符号常量</h2>
+
+<p>类似前面程序示例中使用的 300、20 等类似的“幻数”无法向后面阅读该程序的人提供相应信息，而且使程序的修改变得更加困难。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c">    <span class="kt">int</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">,</span> <span class="n">step</span><span class="p">;</span>
+
+    <span class="n">lower</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>      <span class="cm">/* 摄氏度下限 */</span>
+    <span class="n">upper</span> <span class="o">=</span> <span class="mi">300</span><span class="p">;</span>    <span class="cm">/* 摄氏度上限 */</span>
+    <span class="n">step</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>      <span class="cm">/* 步长      */</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>处理这种“幻数”的一种方式就是赋予它们有意义的名字，由此引出了 <code>#define</code>指令。<code>#define</code>指令可以把符号名（符号常量)定义为一个特定的字符串。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#define 名字 替换文本</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>示例代码如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span><span class="cp"></span>
+<span class="cp">#define UPPER  300         </span><span class="c1">// UPPER、LOWER、STEP都是符号常量，非变量，因此不需要出现在声明中。
+</span><span class="c1"></span><span class="cp">#define LOWER  0           </span><span class="c1">// 符号常量通常用大写字母表示，方便和小写字母拼写的变量名相区别。
+</span><span class="c1"></span><span class="cp">#define STEP   20          </span><span class="c1">// #define 指令行的末尾没有分号
+</span><span class="c1"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+	<span class="cm">/* ℃ = (5 / 9) (℉ - 32) */</span>
+    
+    <span class="kt">int</span> <span class="n">fahr</span><span class="p">;</span>
+    <span class="k">for</span> <span class="p">(</span><span class="n">fahr</span> <span class="o">=</span> <span class="n">LOWER</span><span class="p">;</span> <span class="n">fahr</span> <span class="o">&lt;=</span> <span class="n">UPPER</span><span class="p">;</span> <span class="n">fahr</span> <span class="o">+=</span> <span class="n">STEP</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%3d, %7.1f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,</span> <span class="mf">5.0</span> <span class="o">*</span> <span class="p">(</span><span class="n">fahr</span> <span class="o">-</span> <span class="mi">32</span><span class="p">)</span> <span class="o">/</span> <span class="mf">9.0</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>五、字符输入/输出</p>
+
+<p>文本的输入/输出都是按照字符流的方式处理的。文本流是由多行字符构成的字符序列，每行字符由0个或多个字符组成，行末是一个换行符。标准库负责使每个输入/输出流都能遵守这一模型。</p>
+
+<p>标准库中提供了一次读/写一个字符的函数 getchar 和 putchar 。</p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content"><a rel="amesy" href="https://amesy.me/" target="_blank">amesy</a></span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2014-09-04
+        
+    </span>
+  </p>
+  
+  <p class="copyright-item">
+    <span class="item-title">License</span>
+    <span class="item-content"><a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a></span>
+  </p>
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/c-programming/">C Programming</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/set-up-the-harbor/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Docker镜像仓库Harbor搭建及配置</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/hello-world/">
+            <span class="next-text nav-default">Hello World</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="amesy1110@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/amesy" class="iconfont icon-github" title="github"></a>
+      <a href="https://twitter.com/yangbinnn" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.douban.com/people/amesy1110/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://instagram/yangbinnn" class="iconfont icon-instagram" title="instagram"></a>
+  <a href="https://amesy.me/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> site pv: <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> site uv: <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2014 - 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author"><a rel="Amesy original" href="https://amesy.me/" target="_blank">Amesy original</a></span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
