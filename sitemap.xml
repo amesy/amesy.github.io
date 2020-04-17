@@ -15,6 +15,12 @@
   </url>
   
   <url>
+    <loc>https://amesy.me/categories/</loc>
+    <lastmod>2020-04-11T13:49:40+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://amesy.me/post/set-up-the-blog/</loc>
     <lastmod>2020-04-11T13:49:40+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -34,6 +40,12 @@
   </url>
   
   <url>
+    <loc>https://amesy.me/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2020-04-11T13:49:40+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://amesy.me/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2020-04-11T13:49:40+08:00</lastmod>
     <priority>0</priority>
@@ -47,6 +59,12 @@
   
   <url>
     <loc>https://amesy.me/tags/feeling/</loc>
+    <lastmod>2019-01-07T22:51:40+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amesy.me/categories/life/</loc>
     <lastmod>2019-01-07T22:51:40+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -72,6 +90,12 @@
   </url>
   
   <url>
+    <loc>https://amesy.me/categories/harbor/</loc>
+    <lastmod>2018-07-14T18:31:40+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://amesy.me/tags/harbor/</loc>
     <lastmod>2018-07-14T18:31:40+08:00</lastmod>
     <priority>0</priority>
@@ -79,6 +103,12 @@
   
   <url>
     <loc>https://amesy.me/tags/about/</loc>
+    <lastmod>2020-04-10T20:41:52+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://amesy.me/categories/about/</loc>
     <lastmod>2020-04-10T20:41:52+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -93,11 +123,6 @@
   <url>
     <loc>https://amesy.me/tags/life/</loc>
     <lastmod>2014-07-02T21:49:40+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://amesy.me/categories/</loc>
     <priority>0</priority>
   </url>
   

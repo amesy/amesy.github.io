@@ -7,9 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a rel=&#34;Amesy original&#34; href=&#34;https://amesy.me/&#34; target=&#34;_blank&#34;&gt;Amesy original&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 11 Apr 2020 13:49:40 +0800</lastBuildDate>
     
 	<atom:link href="https://amesy.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>博客搭建</title>
+      <link>https://amesy.me/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Sat, 11 Apr 2020 13:49:40 +0800</pubDate>
+      
+      <guid>https://amesy.me/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>life</title>
+      <link>https://amesy.me/categories/life/</link>
+      <pubDate>Mon, 07 Jan 2019 22:51:40 +0800</pubDate>
+      
+      <guid>https://amesy.me/categories/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harbor</title>
+      <link>https://amesy.me/categories/harbor/</link>
+      <pubDate>Sat, 14 Jul 2018 18:31:40 +0800</pubDate>
+      
+      <guid>https://amesy.me/categories/harbor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://amesy.me/categories/about/</link>
+      <pubDate>Fri, 10 Oct 2014 18:13:35 +0800</pubDate>
+      
+      <guid>https://amesy.me/categories/about/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
