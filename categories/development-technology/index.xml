@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development Technology on Amesy</title>
+    <link>http://localhost:1313/categories/development-technology/</link>
+    <description>Recent content in Development Technology on Amesy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&lt;a rel=&#34;Amesy original&#34; href=&#34;https://amesy.me/&#34; target=&#34;_blank&#34;&gt;Amesy original&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 14 Jul 2018 18:31:40 +0800</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/development-technology/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker镜像仓库Harbor搭建及配置</title>
+      <link>http://localhost:1313/post/set-up-the-harbor/</link>
+      <pubDate>Sat, 14 Jul 2018 18:31:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/set-up-the-harbor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学习笔记 -《C程序设计语言》第一章</title>
+      <link>http://localhost:1313/post/c-programming-language-first/</link>
+      <pubDate>Thu, 04 Sep 2014 09:42:40 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/c-programming-language-first/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

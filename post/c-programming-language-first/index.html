@@ -55,7 +55,7 @@
 
 
 
-<meta itemprop="keywords" content="C Programming," />
+<meta itemprop="keywords" content="C Programming,BOOK," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="学习笔记 -《C程序设计语言》第一章"/>
 <meta name="twitter:description" content=""/>
@@ -178,7 +178,7 @@
 <pre class="chroma"><code class="language-c" data-lang="c"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;              // 包含标准库的信息</span><span class="cp">
 </span><span class="cp"></span><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>                    <span class="c1">// 定义名为main的函数，它不接收参数值
 </span><span class="c1"></span>    <span class="n">printf</span><span class="p">(</span><span class="s">&#34;Hello World</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">);</span>    <span class="c1">// main函数调用库函数printf以显示字符序列，\n代表换行符
-</span><span class="c1"></span>	<span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class="c1"></span>    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
 <span class="p">}</span></code></pre></td></tr></table>
 </div>
 </div>
@@ -499,8 +499,8 @@
 </span><span class="c1"></span><span class="cp">#define STEP   20     </span><span class="c1">// #define 指令行的末尾没有分号
 </span><span class="c1"></span>
 <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="cm">/* ℃ = (5 / 9) (℉ - 32) */</span>
-    
+    <span class="cm">/* ℃ = (5 / 9) (℉ - 32) */</span>    
+
     <span class="kt">int</span> <span class="n">fahr</span><span class="p">;</span>
     <span class="k">for</span> <span class="p">(</span><span class="n">fahr</span> <span class="o">=</span> <span class="n">LOWER</span><span class="p">;</span> <span class="n">fahr</span> <span class="o">&lt;=</span> <span class="n">UPPER</span><span class="p">;</span> <span class="n">fahr</span> <span class="o">+=</span> <span class="n">STEP</span><span class="p">)</span> <span class="p">{</span>
         <span class="n">printf</span><span class="p">(</span><span class="s">&#34;%3d, %7.1f</span><span class="se">\n</span><span class="s">&#34;</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,</span> <span class="mf">5.0</span> <span class="o">*</span> <span class="p">(</span><span class="n">fahr</span> <span class="o">-</span> <span class="mi">32</span><span class="p">)</span> <span class="o">/</span> <span class="mf">9.0</span><span class="p">);</span>
@@ -538,6 +538,7 @@
 <footer class="post-footer">
       <div class="post-tags">
           <a href="/tags/c-programming/">C Programming</a>
+          <a href="/tags/book/">BOOK</a>
           </div>
       <nav class="post-nav">
         <a class="prev" href="/post/set-up-the-harbor/">
