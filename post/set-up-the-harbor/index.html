@@ -51,7 +51,7 @@
 
 <meta itemprop="datePublished" content="2018-07-14T18:31:40&#43;08:00" />
 <meta itemprop="dateModified" content="2018-07-14T18:31:40&#43;08:00" />
-<meta itemprop="wordCount" content="0">
+<meta itemprop="wordCount" content="3441">
 
 
 
@@ -130,8 +130,8 @@
       <div class="post-meta">
         <span class="post-time"> 2018-07-14 </span>
         
-          <span class="more-meta"> 0 words </span>
-          <span class="more-meta"> 0 mins read </span>
+          <span class="more-meta"> 3441 words </span>
+          <span class="more-meta"> 7 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
     </header>
@@ -490,7 +490,7 @@ ports:
 
 <p>注：更改或清空防火墙规则，否则访问时会报405错误。</p>
 
-<p><img src="https://raw.githubusercontent.com/amesy/blogtalk/master/blogImages/post/Set-up-the-Harbor/img01.png" alt="img01" /></p>
+<p><img src="https://p.qlogo.cn/qqmail_head/Q3auHgzwzM6HJTwuN7PVBOoQXfpElcp8w8RAWNf4aicnoBJNwUhHdhudglTP7HwNyXANbCgVtTQI/0" alt="img01" /></p>
 
 <h3 id="登录-web-harbor">登录 Web Harbor</h3>
 
@@ -498,7 +498,7 @@ ports:
 
 <p>登录完后界面如下图所示：</p>
 
-<p><img src="https://raw.githubusercontent.com/amesy/blogtalk/master/blogImages/post/Set-up-the-Harbor/img02.png" alt="img02" /></p>
+<p><img src="https://p.qlogo.cn/qqmail_head/Q3auHgzwzM6HJTwuN7PVBOoQXfpElcp8w8RAWNf4aiclnBhvEs70eby9A4bXInb8MmLUWIYNf3s0/0" alt="img02" /></p>
 
 <p>可以看到系统各个模块如下：</p>
 
@@ -526,7 +526,7 @@ ports:
 
 <p>新建一个项目，可以选择设置项目为公开或不公开。此处我创建了两个仓库，一个私有仓库和一个公开仓库：</p>
 
-<p><img src="https://raw.githubusercontent.com/amesy/blogtalk/master/blogImages/post/Set-up-the-Harbor/img03.png" alt="img03" /></p>
+<p><img src="https://p.qlogo.cn/qqmail_head/Q3auHgzwzM6HJTwuN7PVBOoQXfpElcp8w8RAWNf4aicmYNzp337AMWIbicsflfaZFSFwiasbKamGmQ/0" alt="img03" /></p>
 
 <p>注意：当项目设为公开后，任何人都有此项目下镜像的读权限。命令行用户不需要 <code>docker login</code> 就可以拉取此项目下的镜像。</p>
 
@@ -613,7 +613,7 @@ Error response from daemon: Get https://10.68.7.20/v2/: <span class="nb">read</s
 
 <p>上传完毕后，登录Web Harbor，选择对应项目名称 docker_private，就可以查看到刚才上传的 nginx image。</p>
 
-<p><img src="https://raw.githubusercontent.com/amesy/blogtalk/master/blogImages/post/Set-up-the-Harbor/img04.png" alt="img04" /></p>
+<p><img src="https://p.qlogo.cn/qqmail_head/Q3auHgzwzM6HJTwuN7PVBOoQXfpElcp8w8RAWNf4aicnia5nws1mkEf1xTtTHNbfXia0Uw2R2a4xM4/0" alt="img04" /></p>
 
 <h3 id="创建用户并分配权限">创建用户并分配权限</h3>
 
@@ -621,11 +621,11 @@ Error response from daemon: Get https://10.68.7.20/v2/: <span class="nb">read</s
 
 <p>创建用户名为 amesy 的测试用户，点击系统管理 -&gt;用户管理 -&gt; 创建用户，输入用户名、邮箱、密码等信息。</p>
 
-<p><img src="https://raw.githubusercontent.com/amesy/blogtalk/master/blogImages/post/Set-up-the-Harbor/img05.png" alt="img05" /></p>
+<p><img src="https://p.qlogo.cn/qqmail_head/Q3auHgzwzM6HJTwuN7PVBOoQXfpElcp8w8RAWNf4aickvoeiamUXW3y3XFIiaNDoWfAIS6TQc5vy7U/0" alt="img05" /></p>
 
 <p>将 amesy 用户添加到 docker_private 项目成员中，点击项目 -&gt; docker_private -&gt; 成员 -&gt; 新建成员，填写姓名，选择角色。</p>
 
-<p><img src="https://raw.githubusercontent.com/amesy/blogtalk/master/blogImages/post/Set-up-the-Harbor/img06.png" alt="img06" /></p>
+<p><img src="https://p.qlogo.cn/qqmail_head/Q3auHgzwzM6HJTwuN7PVBOoQXfpElcp8w8RAWNf4aicmfRWbQENJHdE6cUonfjMc8g7I8dJ59wFE/0" alt="img06" /></p>
 
 <p>现在我们使用 amesy 账户在本地模拟操作 pull 刚上传的nginx镜像。</p>
 
@@ -712,11 +712,11 @@ Status: Downloaded newer image <span class="k">for</span> <span class="m">10</sp
 
 <p>注：目标URL这里指Harbor2的地址，用户名和密码为Harbor2配置的admin账户和密码，一旦勾选启用，那么新建复制规则完成后，立马就会检测需要同步的image自动同步。</p>
 
-<p><img src="https://raw.githubusercontent.com/amesy/blogtalk/master/blogImages/post/Set-up-the-Harbor/img07.png" alt="img07" /></p>
+<p><img src="https://p.qlogo.cn/qqmail_head/Q3auHgzwzM6HJTwuN7PVBOoQXfpElcp8w8RAWNf4aicnwIicq4Xibvj4dgiaMSl7Dg3VgI7ECZq38Xw/0" alt="img07" /></p>
 
 <p>然后查看Harbor2节点信息，可以看到数据镜像已同步完成，对应的日志信息等也已生成。</p>
 
-<p><img src="https://raw.githubusercontent.com/amesy/blogtalk/master/blogImages/post/Set-up-the-Harbor/img08.png" alt="img08" /></p>
+<p><img src="https://p.qlogo.cn/qqmail_head/Q3auHgzwzM6HJTwuN7PVBOoQXfpElcp8w8RAWNf4aicmCfibcPkVQB3TaaJdXjOApwOicib1yNlvYv4/0" alt="img08" /></p>
 
 <p>之后，因为配置了复制规则的缘故，Harbor1的 docker_private 项目下有新的镜像生成，就会自动同步到 Harbor2 的 docker_private 项目下。</p>
 
