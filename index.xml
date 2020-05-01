@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a rel=&#34;Amesy original&#34; href=&#34;https://amesy.me/&#34; target=&#34;_blank&#34;&gt;Amesy original&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 11 Apr 2020 13:49:40 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 17:08:55 +0800</lastBuildDate>
     
 	<atom:link href="https://amesy.me/index.xml" rel="self" type="application/rss+xml" />
     
@@ -19,6 +19,15 @@
       
       <guid>https://amesy.me/about/</guid>
       <description>yangbin, 男, 95后, 坐标北京, 程序开发。 博客采用静态站点引擎 Hugo 搭建，域名来自NAMECHEAP 。 本站所有内容均托管于 Github，访问体验与本地到</description>
+    </item>
+    
+    <item>
+      <title>最近引起我思考的三件事</title>
+      <link>https://amesy.me/post/feeling-20200501/</link>
+      <pubDate>Fri, 01 May 2020 17:08:55 +0800</pubDate>
+      
+      <guid>https://amesy.me/post/feeling-20200501/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -49,7 +58,7 @@
     </item>
     
     <item>
-      <title>学习笔记 -《C程序设计语言》第一章</title>
+      <title>C语言基础知识</title>
       <link>https://amesy.me/post/c-programming-language-first/</link>
       <pubDate>Thu, 04 Sep 2014 09:42:40 +0800</pubDate>
       

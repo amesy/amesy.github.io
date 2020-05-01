@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>BOOK on Amesy</title>
-    <link>http://localhost:1313/tags/book/</link>
-    <description>Recent content in BOOK on Amesy</description>
+    <title>C程序 on Amesy</title>
+    <link>http://localhost:1313/categories/c%E7%A8%8B%E5%BA%8F/</link>
+    <description>Recent content in C程序 on Amesy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>&lt;a rel=&#34;Amesy original&#34; href=&#34;https://amesy.me/&#34; target=&#34;_blank&#34;&gt;Amesy original&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 04 Sep 2014 09:42:40 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/tags/book/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/c%E7%A8%8B%E5%BA%8F/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>学习笔记 -《C程序设计语言》第1章</title>
+      <title></title>
       <link>http://localhost:1313/post/c-programming-language-first/</link>
       <pubDate>Thu, 04 Sep 2014 09:42:40 +0800</pubDate>
       
