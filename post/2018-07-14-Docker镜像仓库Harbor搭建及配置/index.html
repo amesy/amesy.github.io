@@ -142,8 +142,13 @@
     <div class="post-toc-content">
         <nav id="TableOfContents">
   <ul>
-    <li><a href="#环境准备">环境准备</a></li>
-    <li><a href="#开始安装">开始安装</a></li>
+    <li><a href="#harbor介绍">Harbor介绍</a></li>
+    <li><a href="#安装harbor">安装Harbor</a>
+      <ul>
+        <li><a href="#环境准备">环境准备</a></li>
+        <li><a href="#开始安装">开始安装</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
     </div>
@@ -208,11 +213,11 @@
         </div>
         
         <div class="post-content">
-            <h1 id="harbor介绍">Harbor介绍</h1>
+            <h2 id="harbor介绍">Harbor介绍</h2>
 <p>Harbor是一个由VMware公司开源的企业级的Docker Registry管理项目。它是一个用于存储和分发Docker镜像的企业级Registry服务器，通过添加一些企业必需的功能特性，例如安全、标识和管理等，扩展了开源Docker Distribution。作为一个企业级私有Registry服务器，Harbor提供了更好的性能和安全。提升用户使用Registry构建和运行环境传输镜像的效率。Harbor支持安装在多个Registry节点的镜像资源复制，镜像全部保存在私有Registry中， 确保数据和知识产权在公司内部网络中管控。另外，Harbor也提供了高级的安全特性，诸如用户管理，访问控制和活动审计等。</p>
 <ul>
 <li><strong>基于角色的访问控制</strong> - 用户与Docker镜像仓库通过“项目”进行组织管理，一个用户可以对多个镜像仓库在同一命名空间（project）里有不同的权限。</li>
-<li><strong>镜像复制</strong> - 镜像可以在多个Registry实例中复制（同步）。尤其适合于负载均衡，高可用，混合云和多云的场景。</li>
+<li><strong>镜像复制</strong> - 镜像可以在多个Registry实例中复制(同步)。尤其适合于负载均衡，高可用，混合云和多云的场景。</li>
 <li><strong>图形化用户界面</strong> - 用户可以通过浏览器来浏览，检索当前Docker镜像仓库，管理项目和命名空间。</li>
 <li><strong>AD/LDAP 支持</strong> - Harbor可以集成企业内部已有的AD/LDAP，用于鉴权认证管理。</li>
 <li><strong>审计管理</strong> - 所有针对镜像仓库的操作都可以被记录追溯，用于审计管理。</li>
@@ -220,15 +225,15 @@
 <li><strong>RESTful API</strong> - RESTful API 提供给管理员对于Harbor更多的操控, 使得与其它管理软件集成变得更容易。</li>
 <li><strong>部署简单</strong> - 提供在线和离线两种安装工具， 也可以安装到vSphere平台(OVA方式)虚拟设备。</li>
 </ul>
-<h1 id="安装harbor">安装Harbor</h1>
-<h2 id="环境准备">环境准备</h2>
+<h2 id="安装harbor">安装Harbor</h2>
+<h3 id="环境准备">环境准备</h3>
 <ul>
 <li>CentOS：7.4</li>
 <li>Docker：17.12.0-ce</li>
 <li>Docker-compose： version 1.13.0</li>
 <li>Harbor： version 1.1.2</li>
 </ul>
-<h2 id="开始安装">开始安装</h2>
+<h3 id="开始安装">开始安装</h3>
 <p><strong>1）安装Docker</strong></p>
 <p>官网安装文档：<a href="https://docs.docker.com/install/linux/docker-ce/centos/">https://docs.docker.com/install/linux/docker-ce/centos/</a></p>
 <p><strong>2）安装Docker-compose</strong></p>
@@ -518,42 +523,42 @@ ports:
 <p><strong>浏览器访问：</strong></p>
 <p>注：更改或清空防火墙规则，否则访问时会报405错误。</p>
 <p>
-        <a data-fancybox="gallery" href="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img01.png">
-            <img class="mx-auto" alt="img01" src="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img01.png" />
+        <a data-fancybox="gallery" href="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img01.png">
+            <img class="mx-auto" alt="img01" src="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img01.png" />
         </a>
     </p>
 <h1 id="登录-web-harbor">登录 Web Harbor</h1>
 <p>用户名为 <code>admin</code>， 密码为 <code>docker-compose.cfg</code> 中 admin 对应的密码。</p>
 <p>登录完后界面如下图所示：</p>
 <p>
-        <a data-fancybox="gallery" href="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img02.png">
-            <img class="mx-auto" alt="img02" src="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img02.png" />
+        <a data-fancybox="gallery" href="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img02.png">
+            <img class="mx-auto" alt="img02" src="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img02.png" />
         </a>
     </p>
-<p>可以看到系统各个模块如下：</p>
+<p>可以看到系统各个模块如下:</p>
 <ul>
 <li>项目：新增/删除项目，查看镜像仓库，给项目添加成员、查看操作日志、复制项目等。</li>
 <li>日志：仓库各个镜像create、push、pull等操作日志。</li>
 <li>系统管理
-<ul>
+<ol>
 <li>用户管理：新增/删除用户、设置管理员等</li>
 <li>复制管理：新增/删除从库目标、新建/删除/启停复制规则等</li>
 <li>配置管理：认证模式、复制、邮箱设置、系统设置等</li>
-</ul>
+</ol>
 </li>
 <li>其他设置
-<ul>
+<ol>
 <li>用户设置：修改用户名、邮箱、名称信息</li>
 <li>修改密码：修改用户密码</li>
-</ul>
+</ol>
 </li>
 </ul>
 <p>注：非系统管理员用户登录，只能看到有权限的项目和日志，其他模块不可见。</p>
 <h1 id="新建项目">新建项目</h1>
 <p>新建一个项目，可以选择设置项目为公开或不公开。此处我创建了两个仓库，一个私有仓库和一个公开仓库：</p>
 <p>
-        <a data-fancybox="gallery" href="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img03.png">
-            <img class="mx-auto" alt="img03" src="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img03.png" />
+        <a data-fancybox="gallery" href="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img03.png">
+            <img class="mx-auto" alt="img03" src="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img03.png" />
         </a>
     </p>
 <p>注意：当项目设为公开后，任何人都有此项目下镜像的读权限。命令行用户不需要 <code>docker login</code> 就可以拉取此项目下的镜像。</p>
@@ -637,22 +642,22 @@ Error response from daemon: Get https://10.68.7.20/v2/: <span style="color:#0086
 <p>CentOS或Ubuntu系统均可采用该方法解决。</p>
 <p>上传完毕后，登录Web Harbor，选择对应项目名称 docker_private，就可以查看到刚才上传的 nginx image。</p>
 <p>
-        <a data-fancybox="gallery" href="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img04.png">
-            <img class="mx-auto" alt="img04" src="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img04.png" />
+        <a data-fancybox="gallery" href="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img04.png">
+            <img class="mx-auto" alt="img04" src="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img04.png" />
         </a>
     </p>
 <h1 id="创建用户并分配权限">创建用户并分配权限</h1>
 <p>我们刚一直是用 <code>admin</code> 操作，实际应用中我们使用每个人自己的账户登录。所以就需要新建用户，同时为了让用户有权限操作已经创建的项目，还必须将该用户添加到所属项目成员中。</p>
 <p>创建用户名为 amesy 的测试用户，点击系统管理 -&gt;用户管理 -&gt; 创建用户，输入用户名、邮箱、密码等信息。</p>
 <p>
-        <a data-fancybox="gallery" href="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img05.png">
-            <img class="mx-auto" alt="img05" src="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img05.png" />
+        <a data-fancybox="gallery" href="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img05.png">
+            <img class="mx-auto" alt="img05" src="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img05.png" />
         </a>
     </p>
 <p>将 amesy 用户添加到 docker_private 项目成员中，点击项目 -&gt; docker_private -&gt; 成员 -&gt; 新建成员，填写姓名，选择角色。</p>
 <p>
-        <a data-fancybox="gallery" href="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img06.png">
-            <img class="mx-auto" alt="img06" src="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img06.png" />
+        <a data-fancybox="gallery" href="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img06.png">
+            <img class="mx-auto" alt="img06" src="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img06.png" />
         </a>
     </p>
 <p>现在我们使用 amesy 账户在本地模拟操作 pull 刚上传的nginx镜像。</p>
@@ -731,14 +736,14 @@ Status: Downloaded newer image <span style="color:#000;font-weight:bold">for</sp
 <p>点击项目 -&gt; docker_private -&gt; 复制 -&gt; 新建复制规则，填写名称、目标名、目标URL等信息。</p>
 <p>注：目标URL这里指Harbor2的地址，用户名和密码为Harbor2配置的admin账户和密码，一旦勾选启用，那么新建复制规则完成后，立马就会检测需要同步的image自动同步。</p>
 <p>
-        <a data-fancybox="gallery" href="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img07.png">
-            <img class="mx-auto" alt="img07" src="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img07.png" />
+        <a data-fancybox="gallery" href="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img07.png">
+            <img class="mx-auto" alt="img07" src="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img07.png" />
         </a>
     </p>
 <p>然后查看Harbor2节点信息，可以看到数据镜像已同步完成，对应的日志信息等也已生成。</p>
 <p>
-        <a data-fancybox="gallery" href="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img08.png">
-            <img class="mx-auto" alt="img08" src="https://raw.githubusercontent.com/amesy/amesy.github.io/master/assets/_images/Harbor/img08.png" />
+        <a data-fancybox="gallery" href="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img08.png">
+            <img class="mx-auto" alt="img08" src="https://github.com/amesy/amesy.github.io/blob/master/pictures/2018/Harbor/img08.png" />
         </a>
     </p>
 <p>之后，因为配置了复制规则的缘故，Harbor1的 docker_private 项目下有新的镜像生成，就会自动同步到 Harbor2 的 docker_private 项目下。</p>
@@ -747,7 +752,6 @@ Status: Downloaded newer image <span style="color:#000;font-weight:bold">for</sp
 <li><a href="https://vmware.github.io/harbor/cn/">https://vmware.github.io/harbor/cn/</a></li>
 <li><a href="https://github.com/vmware/harbor/">https://github.com/vmware/harbor/</a></li>
 </ul>
-<p>（完）</p>
 
         </div>
 
